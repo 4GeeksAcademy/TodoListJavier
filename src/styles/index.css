@@ -1,11 +1,32 @@
-/* 
+body{
+    margin-top: 100px;
+    background-image: url(src/img/pared2.avif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    
+    
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ul li{
+    border: inset;
+    list-style:none;
+    padding: 15px;
+    color: red;
+}
 
-*/
+.input{
+    border:inset 1px rgb(107, 3, 3);
+}
+
+#firstCont{
+    border: 5px solid rgb(44, 42, 42);
+  
+    background-image: url(src/img/corcho.avif);
+
+}
+
+input{
+    background-color: rgb(226, 196, 179);
+}
+
